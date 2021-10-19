@@ -1,0 +1,11 @@
+.padding{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.link{
+    
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding-top: 12px;
+};

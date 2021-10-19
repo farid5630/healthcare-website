@@ -1,0 +1,56 @@
+[
+    {
+        "key": "B002RL8IYK",
+        "id": 1,
+        "subject": "Eye Care",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 5000,
+        "img": "./services/image1.webp"
+
+    },
+    {
+        "key": "B002RL8IJI",
+        "id": 2,
+        "subject": "Physical Therapy",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 5500,
+        "img": "./services/image2.webp"
+
+    },
+    {
+        "key": "B002RL453YK",
+        "id": 3,
+        "subject": "Dental Care",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 6000,
+        "img": "./services/image3.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 4,
+        "subject": "Diagnostic Test",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./services/image4.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 4,
+        "subject": "Skin Surgery",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./services/image5.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 4,
+        "subject": "Surgery Service",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./services/image6.webp"
+
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "key": "B002RL8IYK",
+        "id": 1,
+        "name": "Mirazul Alom",
+        "expert": "NEUROLOGIST",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 5000,
+        "img": "./doctors/doctors1.webp"
+
+    },
+    {
+        "key": "B002RL8IJI",
+        "id": 2,
+        "name": "Dr. Lloyd Wilson",
+        "expert": "OPHTHALMOLOGIST",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 5500,
+        "img": "./doctors/doctor2.webp"
+
+    },
+    {
+        "key": "B002RL453YK",
+        "id": 3,
+        "name": "Dr. Ian Smith",
+        "expert": "DENTIST",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 6000,
+        "img": "./doctors/doctor3.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 4,
+        "name": "Dr. Rachel Parker",
+        "expert": "PEDIATRICIAN",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./doctors/doctor4.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 5,
+        "name": "Dr. Alicia Henderson",
+        "expert": "Hapani",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./doctors/doctor5.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 6,
+        "name": "Dr Kader",
+        "expert": "Jor",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./doctors/doctor6.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 7,
+        "name": "Dr Monzurul islam",
+        "expert": "mathabetha",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./doctors/doctor7.webp"
+
+    },
+    {
+        "key": "B002RL8IDF",
+        "id": 8,
+        "name": "Dr Zobayer",
+        "expert": "jondis",
+        "description": "Optometrists are licensed by the state to examine the eyes to determine the presence of vision problems and visual acuity.",
+        "fee": 4500,
+        "img": "./doctors/doctor8.webp"
+
+    }
+]

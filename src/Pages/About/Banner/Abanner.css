@@ -1,0 +1,12 @@
+.abanner{
+    background-image: url("https://i.postimg.cc/GmVgM2bL/becoming-doctor.jpg"),linear-gradient(rgba(1, 1, 1, 0.3), rgba(0, 0, 0, 0.3)); 
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+};
+.jumboton{
+    background-color: rgba(85, 80, 80, 0.308); 
+    padding: 15px;
+};
