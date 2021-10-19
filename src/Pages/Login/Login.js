@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory, useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
@@ -18,7 +19,17 @@ const Login = () => {
     return (
         <div>
             <h1>Please Log in</h1>
-            <button onClick={handleGoogleLogin}>Sign in Google</button>
+            <>
+            <form>
+                    <input type="email" name="" id="" placeholder="Your Email" />
+                    <br />
+                    <input type="password" name="" id="" />
+                    <br />
+                    <input type="submit" value="Submit" />
+                </form>
+                <p>new to Madiplus? <Link to="/registration">Create Account</Link></p>
+            </>
+            <button onClick={handleGoogleLogin} className="btn btn-success">Sign in Google</button>
         </div>
     );
 };

@@ -9,6 +9,8 @@ const Departments = () => {
         .then(res => res.json())
         .then(data => setDepartments(data));
     }, [])
+
+
     return (
         <div>
 
@@ -33,11 +35,9 @@ const Departments = () => {
                                         <p>{department.description}</p>
                                         <h6>Cost : {department.fee} /-</h6>
                                     </div>  
-                                    <Link to="" className="btn btn-success">See Details
-                  
-                                    </Link>   
-
-                            {/* <FontAwesomeIcon icon={faArrowRight} /> */}
+                                    <Link to={`/dtmdetails/${department.id} `}>
+                                <button className="btn btn-primary">See Details</button>
+                                </Link>
                                 </div>
                             </div>
                         ))

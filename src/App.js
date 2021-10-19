@@ -13,6 +13,8 @@ import Login from './Pages/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Registration from './Pages/Registration/Registration';
+import NotFound from './Pages/NotFound/NotFound';
+import DepartmentDetails from './Pages/Departments/DepartmentDetails/DepartmentDetails';
 
 function App() {
   return (
@@ -39,11 +41,17 @@ function App() {
           <PrivateRoute path="/dtdetails/:doctorId">            
             <DoctorDetails></DoctorDetails>
           </PrivateRoute>          
+          <PrivateRoute path="/dtmdetails/:departmentId">            
+            <DepartmentDetails></DepartmentDetails>
+          </PrivateRoute>          
           <Route path="/login">
             <Login></Login>
           </Route>
           <Route path="/registration">
             <Registration></Registration>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>

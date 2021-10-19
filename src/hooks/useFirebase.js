@@ -1,5 +1,6 @@
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
 import { useState, useEffect } from 'react';
+import { useHistory, useLocation } from "react-router";
 import initializeAuthentication from "../Pages/Firebase/firebase.init";
 
 
@@ -29,7 +30,7 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
-            // setIsLoading(false);
+            setIsLoading(false);
         });
         return () => unsubscribed;
     }, [])
