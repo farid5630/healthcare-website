@@ -22,10 +22,10 @@ const Login = () => {
             <>
             <form>
                     <input type="email" name="" id="" placeholder="Your Email" />
-                    <br />
-                    <input type="password" name="" id="" />
-                    <br />
-                    <input type="submit" value="Submit" />
+                    <br /><br />
+                    <input type="password" name="" id="" placeholder="password"/>
+                    <br /><br />
+                    <input className="btn btn-success" type="submit" value="Login" />
                 </form>
                 <p>new to Madiplus? <Link to="/registration">Create Account</Link></p>
             </>

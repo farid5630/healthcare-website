@@ -15,7 +15,7 @@ const Doctor = ({doctor}) => {
                                 <p className="text-success">{expert}</p>
                                 <h6>Course fee : {fee}</h6>
                                 <Link to={`/dtdetails/${id}`}>
-                                <button className="btn btn-primary">See Details</button>
+                                <button className="btn btn-primary">Book Now</button>
                                 </Link>
                             </div>                                    
                         </div>
